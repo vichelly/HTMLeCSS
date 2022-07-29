@@ -1,0 +1,44 @@
+@keyframes ex {
+    0%{background-color: red; top: 0px; left: 0px;}
+    25%{background-color: yellow; top: 0px; left:200px;}
+    50%{background-color: blue; top: 200px; left: 200px;}
+    75%{background-color: aquamarine; top: 200px; left: 0px;}
+    100%{background-color: green; top: 0px; left: 0px;}
+}
+
+@keyframes text {
+    0%{color: green;}
+    50%{color: red;}
+    100%{color: green;}
+}
+
+
+body{
+    margin:0;
+    background-color: rgb(172, 166, 166);
+}
+.ex{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    font-family:sans-serif;
+    position: absolute;
+    animation-name: ex;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    box-shadow: 7px 7px 4px #888888;
+}
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    margin: auto;
+    text-shadow:2px 2px 2px #888888 ;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-delay: 00.5s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 50px;
+}

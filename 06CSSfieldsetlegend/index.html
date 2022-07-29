@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Fieldset e Legend</h1>
+    <h1>Validações nativas (Sem o uso de script)</h1>
+    <h2>Enviar arquivos</h2>
+    <!--
+        required
+        minlenght
+        maxlenght
+        step (para números) - vai indo de 2 em 2 ou 3 em 3
+        pattern - criar seus próprios padrões por expressões regulares
+        hidden - para pegar informações sem que o usuário saiba
+        accept - aceitar apenas alguns tipos de informações ex:
+        accept="image/*"  accept="application/pdf" 
+    -->
+
+    <!--
+        sempre que tiver arquivo coloque enctype="multipart/form-data" 
+    -->
+    <form action="mim.py" method="post" enctype="multipart/form-data" >
+        <input type="hidden" name="country" value="3p">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>
+                Nome:<br>
+                <input type="text" name="name" required minlength="2" maxlength="20" >
+            </label><br>
+            <label>
+                Sobrenome:<br>
+                <input type="text" name="lastname" ><br>
+            </label>
+            <label>
+                Idade:<br>
+                <input type="number" name="number" min="18" max="190">
+            </label><br>
+            <label>
+                Data de nascimento:<br>
+                <input type="datetime" name="birthdate" min="2021-06-04">
+            </label><br>
+            <label>
+                E-mail:<br>
+                <input type="email" name="email" pattern="" >
+            </label><br>
+            <label>
+                Foto:<br>
+                <input type="file" name="photo" accept="image/*" >
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Dados da Empresa</legend>
+            <label>
+                Nome da Empresa:<br>
+                <input type="text" name="company" >
+            </label><br>
+            <label>
+                Cargo:<br>
+                <input type="text" name="title">
+            </label><br>
+        </fieldset>
+
+        <input type="submit" value="cadastrar"/>
+        </form>
+    
+    
+</body>
+</html>

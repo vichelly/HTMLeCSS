@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <form method="post">
+            <fieldset>
+                    <legend>Registro</legend>
+                <div>
+                    <label for="">
+                    <input type="text" name="usuario" placeholder="nome" maxlength="10" autofocus required autocomplete="on" />
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                    <input type="text" name="CPF" placeholder="CPF" maxlength="11" minlength="11" autofocus required autocomplete="on" />
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                    <input type="password" name="senha" placeholder="senha" maxlength="10" required />
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                    <input type="password" name="senha" placeholder="confirme a senha" maxlength="10" required />
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                    <input type="datetime-local" name="senha" required />
+                    </label>
+                </div>
+                <div class="butt">
+                    <input class="button" type="submit" value="Enviar" required/>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

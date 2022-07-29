@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Página de Testes</h1><br><br><br>
+    <!--
+        
+        Formulário
+        
+        action é o local de envio das informações
+
+        method: get:
+                    pega as informações e joga na URL
+
+                post:
+                    informações secretas, informações enviadas internamente
+    -->
+    <!--
+
+        Os formulários possuem inputs, existem diversos tipos de input
+
+    -->
+    <form action="infos.html" method="get" >
+        <input type="text" />
+        <input type="password"/>
+        <input type="radio" name="se" />
+        <input type="radio" name="se" />
+        <input type="submit"/>
+    </form>
+    <form action="infos.html" method="get"  >
+        <input type="datetime-local" />
+        <input type="range"/>
+        <input type="button" value="CLARÍSSIMA"/>
+        <input type="checkbox">
+        <input type="submit"/>
+    </form>
+    <form>
+        <!--
+            O label seleciona o que for marcado no id pelo clique,
+            facilita o preenchimento, pois nao é necessário clicar exatamente no checkbox
+            
+            Pode ser feito de duas maneiras:
+        -->
+
+        <input id="teste" type="checkbox">
+        <label for="teste" >Clique se concorda com os termos de uso</label>
+        <label>
+            Descrição<br>
+            <textarea name="descricao" id="" cols="30" rows="10"></textarea>
+        </label>
+        <label>
+            Categoria<br>
+            <select name="categoria" id="">
+                <option value="1" >Categoria 1</option>
+                <option value="1" >Categoria 1</option>
+                <option value="1" >Categoria 1</option>
+                <option value="1" >Categoria 1</option>
+                <option value="1" >Categoria 1</option>
+            </select>
+        </label>
+        <label>
+            Nome completo:<br>
+            <input type="text" name="nome">
+        </label>
+        <button>Fazer cadastro</button>
+    </form>
+</body>
+</html>

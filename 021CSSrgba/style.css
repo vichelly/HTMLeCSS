@@ -1,0 +1,12 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/88/2c/77/882c777e960f029ac876609d846bdced.jpg');
+    background-size:cover;
+}
+div{
+    background-color:rgba( 0, 0, 0, 0.5) ;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 300px;
+    bottom: 300px;
+}

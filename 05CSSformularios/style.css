@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+    font-size: 17px;
+}
+label{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+input, textarea, select{
+    padding: 10px;
+    width: 500px;
+    font-size: 15px;
+    border: 1px solid grey;
+    outline: 0;
+    margin-top: 5px;
+}
+textarea{
+    height: 200px;
+    resize: none;
+}
+button{
+    padding: 10px;
+    font-size: 15px;
+    border: grey solid 1px;
+}
+button:hover{
+    background-color: #DDD;
+}

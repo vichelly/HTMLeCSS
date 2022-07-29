@@ -1,0 +1,18 @@
+body{
+    background-color:black ;
+    margin: 0;
+}
+.ex{
+    margin: 300px;
+    width: 500px;
+    height: 200px;
+    background: cadetblue;
+    background: linear-gradient(90deg,black,cadetblue);
+}
+.ex2{
+    width: 500px;
+    height: 200px;
+    margin-left: 300px;
+    background: blueviolet;
+    background: linear-gradient(blueviolet, black, blue) ;
+}

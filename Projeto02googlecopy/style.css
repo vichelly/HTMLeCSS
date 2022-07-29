@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: arial;
+    margin: 0%;
+}
+.head{
+    display: flex;
+    justify-content: flex-end;
+}
+.head div{
+    padding: 10px;
+}
+.app{
+    height: 30px;
+}
+.app:hover{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(201, 201, 201);
+    border-radius: 30px;
+}
+.txt a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 14px;
+}
+.txt{
+    margin-top: 5px;
+}
+.txt a:hover{
+    text-decoration:underline;
+    color: rgb(66, 66, 66);
+    font-size: 14px;
+}
+.profile{
+    border-radius: 80px;
+    height: 32px;
+}
+.nav{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+}
+.barra{
+    border-radius: 30px;
+    width: 600px;
+    height: 40px;
+    border: 1px solid rgb(180, 180, 180);
+}
+.logo{
+    height: 100px;
+    margin-bottom: 20px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+}
+.button input{
+    width: 150px;
+    height: 30px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(243, 243, 243);
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+    cursor: pointer;
+}
+.shit{
+    text-decoration: none;
+    color: blue;
+}
+.shitt{
+    font-size: 13px;
+}
+.footer{
+    margin-top: 24px ;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+    margin-top: 38vh;
+}
+.footer:not(:first-child){
+    border-top: 1px solid rgb(231, 231, 231);
+}
+.local{
+    font-size: 18px;
+    color: grey;
+    padding: 10px 12px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(167, 166, 166);
+    height: 50px;
+}
+.links a{
+    font-size: 15px;
+    color: grey;
+    text-decoration: none;
+    margin-left: 10px;
+}

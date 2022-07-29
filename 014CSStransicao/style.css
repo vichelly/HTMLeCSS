@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+}
+.teste{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    margin: auto;
+    margin-top: 150px;
+    transition: all 0.7s linear;
+}
+.teste:hover{
+    background-color: royalblue;
+    width: 250px;
+    height: 250px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s linear;
+    margin-left: 200px;
+}
+a:hover{
+    color: yellowgreen;
+}

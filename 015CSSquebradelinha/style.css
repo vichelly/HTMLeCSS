@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+}
+.p{
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+.s{
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+}

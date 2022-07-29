@@ -1,0 +1,9 @@
+div{
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 50px;
+}
+
+div:nth-child(2){
+    background-color:blueviolet;
+}
